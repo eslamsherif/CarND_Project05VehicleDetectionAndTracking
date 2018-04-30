@@ -1,91 +1,91 @@
-﻿Index,General,Color Histogram,,,,Spatial Binning,,,Histogram of Oriented Gradients (HOG),,,,,,,,Output,,,Feature Count,,,Comment
-,Normalize,Enabled,Bin Count,Color Space,Channel Used,Enabled,Size,Color Space,Enabled,Orient Count,Pixel Per Cell,Cells Per Block,Block Normalize,Transform Sqrt,Color Space,Channel Used,Accuracy,mean,variance,Histogram,SB,HOG,
-1,OFF,ON,48,RGB,All,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base Colo Histogram Case
-2,ON,ON,48,RGB,All,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Data Normalization
-3,OFF,ON,16,RGB,All,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Smaller Bin Count
-4,OFF,ON,80,RGB,All,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Bigger Bin Count
-5,OFF,ON,48,RGB,0,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-6,OFF,ON,48,RGB,1,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-7,OFF,ON,48,RGB,2,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-8,OFF,ON,48,RGB,All,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-9,OFF,ON,48,HSV,0,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-10,OFF,ON,48,HSV,1,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-11,OFF,ON,48,HSV,2,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-12,OFF,ON,48,HSV,All,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-13,OFF,ON,48,HLS,0,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-14,OFF,ON,48,HLS,1,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-15,OFF,ON,48,HLS,2,OFF,0,RGB,OFF,0,0,0,L2,0,RGB,All,,,,,,,Base + Diffent Color Spaces
-16,OFF,ON,48,HLS,All,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-17,OFF,ON,48,LAB,0,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-18,OFF,ON,48,LAB,1,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-19,OFF,ON,48,LAB,2,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-20,OFF,ON,48,LAB,All,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-21,OFF,ON,48,YUV,0,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-22,OFF,ON,48,YUV,1,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-23,OFF,ON,48,YUV,2,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-24,OFF,ON,48,YUV,All,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-25,OFF,ON,48,LUV,0,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-26,OFF,ON,48,LUV,1,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-27,OFF,ON,48,LUV,2,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-28,OFF,ON,48,LUV,All,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-29,OFF,ON,48,YCrCb,0,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-30,OFF,ON,48,YCrCb,1,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-31,OFF,ON,48,YCrCb,2,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-32,OFF,ON,48,YCrCb,All,OFF,0,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-33,OFF,OFF,0,RGB,All,ON,32,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base Spatial Binning
-34,ON,OFF,0,RGB,All,ON,8,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Data Normalization
-35,OFF,OFF,0,RGB,All,ON,64,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Smaller Size
-36,OFF,OFF,0,RGB,All,ON,32,HSV,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Bigger Size
-37,OFF,OFF,0,RGB,All,ON,32,HLS,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-38,OFF,OFF,0,RGB,All,ON,32,LAB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-39,OFF,OFF,0,RGB,All,ON,32,YUV,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-40,OFF,OFF,0,RGB,All,ON,32,LUV,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-41,OFF,OFF,0,RGB,All,ON,32,YCrCb,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-42,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,Base HOG Case
-43,ON,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,Base + Data Normalization
-44,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,4,16,2,L2-Hys,OFF,RGB,All,,,,,,,Base + smaller Orient
-45,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,16,16,2,L2-Hys,OFF,RGB,All,,,,,,,Base + bigger Orient
-46,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,4,2,L2-Hys,OFF,RGB,All,,,,,,,Base +  smaller pix per cell
-47,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,64,2,L2-Hys,OFF,RGB,All,,,,,,,Base + bigger pix per cell
-48,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,1,L2-Hys,OFF,RGB,All,,,,,,,Base + smaller cell per block
-49,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,4,L2-Hys,OFF,RGB,All,,,,,,,Base + bigger cell per block
-50,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L1,OFF,RGB,All,,,,,,,Base with different Normalize
-51,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L1-sqrt,OFF,RGB,All,,,,,,,Base with different Normalize
-52,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2,OFF,RGB,All,,,,,,,Base with different Normalize
-53,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,ON,RGB,All,,,,,,,Base + Trasnsform Sqrt
-54,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,RGB,0,,,,,,,Base + Diffent Color Spaces
-55,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,RGB,1,,,,,,,Base + Diffent Color Spaces
-56,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,RGB,2,,,,,,,Base + Diffent Color Spaces
-57,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,Base + Diffent Color Spaces
-58,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,HSV,0,,,,,,,Base + Diffent Color Spaces
-59,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,HSV,1,,,,,,,Base + Diffent Color Spaces
-60,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,HSV,2,,,,,,,Base + Diffent Color Spaces
-61,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,HSV,All,,,,,,,Base + Diffent Color Spaces
-62,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,HLS,0,,,,,,,Base + Diffent Color Spaces
-63,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,HLS,1,,,,,,,Base + Diffent Color Spaces
-64,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,HLS,2,,,,,,,Base + Diffent Color Spaces
-65,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,HLS,All,,,,,,,Base + Diffent Color Spaces
-66,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,LAB,0,,,,,,,Base + Diffent Color Spaces
-67,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,LAB,1,,,,,,,Base + Diffent Color Spaces
-68,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,LAB,2,,,,,,,Base + Diffent Color Spaces
-69,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,LAB,All,,,,,,,Base + Diffent Color Spaces
-70,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,YUV,0,,,,,,,Base + Diffent Color Spaces
-71,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,YUV,1,,,,,,,Base + Diffent Color Spaces
-72,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,YUV,2,,,,,,,Base + Diffent Color Spaces
-73,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,YUV,All,,,,,,,Base + Diffent Color Spaces
-74,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,LUV,0,,,,,,,Base + Diffent Color Spaces
-75,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,LUV,1,,,,,,,Base + Diffent Color Spaces
-76,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,LUV,2,,,,,,,Base + Diffent Color Spaces
-77,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,LUV,All,,,,,,,Base + Diffent Color Spaces
-78,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,YCrCb,0,,,,,,,Base + Diffent Color Spaces
-79,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,YCrCb,1,,,,,,,Base + Diffent Color Spaces
-80,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,YCrCb,2,,,,,,,Base + Diffent Color Spaces
-81,OFF,OFF,0,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,YCrCb,All,,,,,,,Base + Diffent Color Spaces
-82,OFF,ON,48,RGB,All,ON,32,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,Hist + SB
-83,ON,ON,48,RGB,All,ON,32,RGB,OFF,0,0,0,L2,OFF,RGB,All,,,,,,,With data normalization
-84,OFF,ON,48,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,Hist + HOG
-85,ON,ON,48,RGB,All,OFF,0,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,With data normalization
-86,OFF,OFF,0,RGB,All,ON,32,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,SB + HOG
-87,ON,OFF,0,RGB,All,ON,32,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,With data normalization
-88,OFF,ON,48,RGB,All,ON,32,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,Hist + SB + HOG
-89,ON,ON,48,RGB,All,ON,32,RGB,ON,8,16,2,L2-Hys,OFF,RGB,All,,,,,,,With data normalization
+Index	General	Color Histogram				Spatial Binning			Histogram of Oriented Gradients (HOG)								Output			Feature Count			Comment
+	Normalize	Enabled	Bin Count	Color Space	Channel Used	Enabled	Size	Color Space	Enabled	Orient Count	Pixel Per Cell	Cells Per Block	Block Normalize	Transform Sqrt	Color Space	Channel Used	Accuracy	mean	variance	Histogram	SB	HOG	
+1	OFF	ON	48	RGB	All	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base Colo Histogram Case
+2	ON	ON	48	RGB	All	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Data Normalization
+3	OFF	ON	16	RGB	All	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Smaller Bin Count
+4	OFF	ON	80	RGB	All	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Bigger Bin Count
+5	OFF	ON	48	RGB	0	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+6	OFF	ON	48	RGB	1	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+7	OFF	ON	48	RGB	2	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+8	OFF	ON	48	RGB	All	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+9	OFF	ON	48	HSV	0	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+10	OFF	ON	48	HSV	1	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+11	OFF	ON	48	HSV	2	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+12	OFF	ON	48	HSV	All	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+13	OFF	ON	48	HLS	0	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+14	OFF	ON	48	HLS	1	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+15	OFF	ON	48	HLS	2	OFF	0	RGB	OFF	0	0	0	L2	0	RGB	All							Base + Diffent Color Spaces
+16	OFF	ON	48	HLS	All	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+17	OFF	ON	48	LAB	0	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+18	OFF	ON	48	LAB	1	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+19	OFF	ON	48	LAB	2	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+20	OFF	ON	48	LAB	All	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+21	OFF	ON	48	YUV	0	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+22	OFF	ON	48	YUV	1	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+23	OFF	ON	48	YUV	2	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+24	OFF	ON	48	YUV	All	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+25	OFF	ON	48	LUV	0	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+26	OFF	ON	48	LUV	1	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+27	OFF	ON	48	LUV	2	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+28	OFF	ON	48	LUV	All	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+29	OFF	ON	48	YCrCb	0	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+30	OFF	ON	48	YCrCb	1	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+31	OFF	ON	48	YCrCb	2	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+32	OFF	ON	48	YCrCb	All	OFF	0	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+33	OFF	OFF	0	RGB	All	ON	32	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base Spatial Binning
+34	ON	OFF	0	RGB	All	ON	8	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Data Normalization
+35	OFF	OFF	0	RGB	All	ON	64	RGB	OFF	0	0	0	L2	OFF	RGB	All							Base + Smaller Size
+36	OFF	OFF	0	RGB	All	ON	32	HSV	OFF	0	0	0	L2	OFF	RGB	All							Base + Bigger Size
+37	OFF	OFF	0	RGB	All	ON	32	HLS	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+38	OFF	OFF	0	RGB	All	ON	32	LAB	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+39	OFF	OFF	0	RGB	All	ON	32	YUV	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+40	OFF	OFF	0	RGB	All	ON	32	LUV	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+41	OFF	OFF	0	RGB	All	ON	32	YCrCb	OFF	0	0	0	L2	OFF	RGB	All							Base + Diffent Color Spaces
+42	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All							Base HOG Case
+43	ON	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All				0	0	864	Base + Data Normalization
+44	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	4	16	2	L2-Hys	OFF	RGB	All				0	0	432	Base + smaller Orient
+45	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	16	16	2	L2-Hys	OFF	RGB	All				0	0	1728	Base + bigger Orient
+46	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	4	2	L2-Hys	OFF	RGB	All	NA	NA	NA	0	0	21600	Base +  smaller pix per cell
+47	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	32	2	L2-Hys	OFF	RGB	All				0	0	96	Base + bigger pix per cell
+48	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	1	L2-Hys	OFF	RGB	All				0	0	384	Base + smaller cell per block
+49	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	4	L2-Hys	OFF	RGB	All				0	0	384	Base + bigger cell per block
+50	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L1	OFF	RGB	All							Base with different Normalize
+51	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L1-sqrt	OFF	RGB	All							Base with different Normalize
+52	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2	OFF	RGB	All							Base with different Normalize
+53	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	ON	RGB	All							Base + Trasnsform Sqrt
+54	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	RGB	0							Base + Diffent Color Spaces
+55	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	RGB	1							Base + Diffent Color Spaces
+56	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	RGB	2							Base + Diffent Color Spaces
+57	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All							Base + Diffent Color Spaces
+58	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	HSV	0							Base + Diffent Color Spaces
+59	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	HSV	1							Base + Diffent Color Spaces
+60	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	HSV	2							Base + Diffent Color Spaces
+61	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	HSV	All							Base + Diffent Color Spaces
+62	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	HLS	0							Base + Diffent Color Spaces
+63	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	HLS	1							Base + Diffent Color Spaces
+64	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	HLS	2							Base + Diffent Color Spaces
+65	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	HLS	All							Base + Diffent Color Spaces
+66	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	LAB	0							Base + Diffent Color Spaces
+67	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	LAB	1							Base + Diffent Color Spaces
+68	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	LAB	2							Base + Diffent Color Spaces
+69	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	LAB	All							Base + Diffent Color Spaces
+70	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	YUV	0							Base + Diffent Color Spaces
+71	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	YUV	1							Base + Diffent Color Spaces
+72	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	YUV	2							Base + Diffent Color Spaces
+73	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	YUV	All							Base + Diffent Color Spaces
+74	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	LUV	0							Base + Diffent Color Spaces
+75	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	LUV	1							Base + Diffent Color Spaces
+76	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	LUV	2							Base + Diffent Color Spaces
+77	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	LUV	All							Base + Diffent Color Spaces
+78	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	YCrCb	0							Base + Diffent Color Spaces
+79	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	YCrCb	1							Base + Diffent Color Spaces
+80	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	YCrCb	2							Base + Diffent Color Spaces
+81	OFF	OFF	0	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	YCrCb	All							Base + Diffent Color Spaces
+82	OFF	ON	48	RGB	All	ON	32	RGB	OFF	0	0	0	L2	OFF	RGB	All							Hist + SB
+83	ON	ON	48	RGB	All	ON	32	RGB	OFF	0	0	0	L2	OFF	RGB	All							With data normalization
+84	OFF	ON	48	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All							Hist + HOG
+85	ON	ON	48	RGB	All	OFF	0	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All							With data normalization
+86	OFF	OFF	0	RGB	All	ON	32	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All							SB + HOG
+87	ON	OFF	0	RGB	All	ON	32	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All							With data normalization
+88	OFF	ON	48	RGB	All	ON	32	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All							Hist + SB + HOG
+89	ON	ON	48	RGB	All	ON	32	RGB	ON	8	16	2	L2-Hys	OFF	RGB	All							With data normalization
