@@ -1,0 +1,89 @@
+[False,True ,[48],"RGB","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 0
+        [True ,True ,[48],"RGB","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 1
+        [False,True ,[16],"RGB","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 2
+        [False,True ,[80],"RGB","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 3
+        [False,True ,[48],"RGB",0,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 4
+        [False,True ,[48],"RGB",1,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 5
+        [False,True ,[48],"RGB",2,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 6
+        [False,True ,[48],"RGB","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 7
+        [False,True ,[48],"HSV",0,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 8
+        [False,True ,[48],"HSV",1,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 9
+        [False,True ,[48],"HSV",2,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 10
+        [False,True ,[48],"HSV","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 11
+        [False,True ,[48],"HLS",0,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 12
+        [False,True ,[48],"HLS",1,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 13
+        [False,True ,[48],"HLS",2,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 14
+        [False,True ,[48],"HLS","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 15
+        [False,True ,[48],"LAB",0,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 16
+        [False,True ,[48],"LAB",1,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 17
+        [False,True ,[48],"LAB",2,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 18
+        [False,True ,[48],"LAB","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 19
+        [False,True ,[48],"YUV",0,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 20
+        [False,True ,[48],"YUV",1,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 21
+        [False,True ,[48],"YUV",2,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 22
+        [False,True ,[48],"YUV","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 23
+        [False,True ,[48],"LUV",0,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 24
+        [False,True ,[48],"LUV",1,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 25
+        [False,True ,[48],"LUV",2,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 26
+        [False,True ,[48],"LUV","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 27
+        [False,True ,[48],"YCrCb",0,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 28
+        [False,True ,[48],"YCrCb",1,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 29
+        [False,True ,[48],"YCrCb",2,False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 30
+        [False,True ,[48],"YCrCb","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 31
+        [False,False,[0],"RGB","All",True ,(32,32),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 32
+        [True ,False,[0],"RGB","All",True ,(8,8),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 33
+        [False,False,[0],"RGB","All",True ,(64,64),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 34
+        [False,False,[0],"RGB","All",True ,(32,32),"HSV",False,0,0,0,"L2",False,"RGB","All"], # 35
+        [False,False,[0],"RGB","All",True ,(32,32),"HLS",False,0,0,0,"L2",False,"RGB","All"], # 36
+        [False,False,[0],"RGB","All",True ,(32,32),"LAB",False,0,0,0,"L2",False,"RGB","All"], # 37
+        [False,False,[0],"RGB","All",True ,(32,32),"YUV",False,0,0,0,"L2",False,"RGB","All"], # 38
+        [False,False,[0],"RGB","All",True ,(32,32),"LUV",False,0,0,0,"L2",False,"RGB","All"], # 39
+        [False,False,[0],"RGB","All",True ,(32,32),"YCrCb",False,0,0,0,"L2",False,"RGB","All"], # 40
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"], # 41
+        [True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"], # 42
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,4,16,2,"L2-Hys",False,"RGB","All"], # 43
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,16,16,2,"L2-Hys",False,"RGB","All"], # 44
+        #45 creats 21600 feature per image so it takes a very long time to check --> Ignored
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,32,2,"L2-Hys",False,"RGB","All"], # 46
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,1,"L2-Hys",False,"RGB","All"], # 47
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,4,"L2-Hys",False,"RGB","All"], # 48
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L1",False,"RGB","All"], # 49
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L1-sqrt",False,"RGB","All"], # 50
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2",False,"RGB","All"], # 51
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",True ,"RGB","All"], # 52
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"RGB",0], # 53
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"RGB",1], # 54
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"RGB",2], # 55
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"], # 56
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"HSV",0], # 57
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"HSV",1], # 58
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"HSV",2], # 59
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"HSV","All"], # 60
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"HLS",0], # 61
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"HLS",1], # 62
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"HLS",2], # 63
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"HLS","All"], # 64
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"LAB",0], # 65
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"LAB",1], # 66
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"LAB",2], # 67
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"LAB","All"], # 68
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"YUV",0], # 69
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"YUV",1], # 70
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"YUV",2], # 71
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"YUV","All"], # 72
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"LUV",0], # 73
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"LUV",1], # 74
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"LUV",2], # 75
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"LUV","All"], # 76
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"YCrCb",0], # 77
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"YCrCb",1], # 78
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"YCrCb",2], # 79
+        [False,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"YCrCb","All"], # 80
+        [False,True ,[48],"RGB","All",True ,(32,32),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 81
+        [True ,True ,[48],"RGB","All",True ,(32,32),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 82
+        [False,True ,[48],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"], # 83
+        [True ,True ,[48],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"], # 84
+        [False,False,[0],"RGB","All",True ,(32,32),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"], # 85
+        [True ,False,[0],"RGB","All",True ,(32,32),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"], # 86
+        [False,True ,[48],"RGB","All",True ,(32,32),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"], # 87
+        [True ,True ,[48],"RGB","All",True ,(32,32),"RGB",True ,8,16,2,"L2-Hys",False,"RGB","All"] # 88

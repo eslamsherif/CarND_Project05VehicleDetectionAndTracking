@@ -1,0 +1,15 @@
+[True ,True ,[48],"LUV","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 0
+[True ,True ,[64],"LUV","All",False,(0,0),"RGB",False,0,0,0,"L2",False,"RGB","All"], # 1
+[True ,False,[0],"RGB","All",True ,(8,8),"LUV",False,0,0,0,"L2",False,"RGB","All"], # 2
+[True ,False,[0],"RGB","All",True ,(16,16),"LUV",False,0,0,0,"L2",False,"RGB","All"], # 3
+[True,False,[0],"RGB","All",True ,(24,24),"LUV",False,0,0,0,"L2",False,"RGB","All"], # 4
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2",False,"LUV","All"], # 5
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,8,16,2,"L2",True ,"LUV","All"], # 6
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,10,16,2,"L2",False,"LUV","All"], # 7
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,10,16,2,"L2",True ,"LUV","All"], # 8
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,12,16,2,"L2",False,"LUV","All"], # 9
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,12,16,2,"L2",True ,"LUV","All"], # 10
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,14,16,2,"L2",False,"LUV","All"], # 11
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,14,16,2,"L2",True ,"LUV","All"], # 12
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,16,16,2,"L2",False,"LUV","All"], # 13
+[True ,False,[0],"RGB","All",False,(0,0),"RGB",True ,16,16,2,"L2",True ,"LUV","All"], # 14
