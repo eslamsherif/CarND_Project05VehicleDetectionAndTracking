@@ -1,0 +1,10 @@
+Param Set( 0 ) result in acc of  0.988738738739  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.015431404113769531
+Param Set( 0 ) result in acc of  0.989583333333  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.015412330627441406
+Param Set( 0 ) result in acc of  0.988457207207  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.015589475631713867
+Param Set( 0 ) result in acc of  0.98902027027  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.01563572883605957
+Param Set( 0 ) result in acc of  0.990990990991  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.01991724967956543
+Param Set( 0 ) result in acc of  0.990146396396  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.015386819839477539
+Param Set( 0 ) result in acc of  0.990990990991  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.015407085418701172
+Param Set( 0 ) result in acc of  0.989583333333  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.01543736457824707
+Param Set( 0 ) result in acc of  0.990990990991  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.015627622604370117
+Param Set( 0 ) result in acc of  0.990990990991  CH Feat cnt= (192,)  SB Feat cnt= (768,)  HOG Feat cnt= (864,)  In time: 0.01562809944152832
