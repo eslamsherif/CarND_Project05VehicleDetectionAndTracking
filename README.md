@@ -8,10 +8,16 @@ Solution for Udacity Self driving car nano degree fifth project: Vehicle Detecti
 [//]: # (Image References)
 
 [LCS]: https://i.pinimg.com/originals/63/c8/9a/63c89aba0ed994edcfce462b2a4b2b6b.jpg
+
 [CarHistImg]: ./ReportImages/Histogram/CarExample.png
 [CarHistEx]: ./ReportImages/Histogram/CarExampleHist.png
 [NonCarHistImg]: ./ReportImages/Histogram/NonCarExample.png
 [NonCarHistEx]: ./ReportImages/Histogram/NonCarExampleHist.png
+
+[CarSBImg]: ./ReportImages/SpatialBinning/CarImagee.png
+[CarSBEx]: ./ReportImages/SpatialBinning/CarSB.png
+[NonCarSBImg]: ./ReportImages/SpatialBinning/NonCarImagee.png
+[NonCarSBEx]: ./ReportImages/SpatialBinning/NonCarSB.png
 
 ---
 
@@ -64,9 +70,9 @@ This is by all means a soft classifier as depending on color to classify cars is
 
 Using this with other features can help to nominate the actual candidates from false positives, however you need to be careful to ensure that the number of feature points from color histogram is much less or at leas comparable to other features to prevent it from having a large vote in the classification process.
 
-Going into color histogram you find that tere exists multiple options such as:
+Going into color histogram you find that tere exists multiple tuning options such as:
   * Color Space
-  * Number of channels used in the selected color space
+  * Number of channels used in the selected color space and which channel to use
   * How many Bins you actually use.
 
 I have tried to analyze this visually I have settled that using 32-64 bins provide quite a good feature count and seems to provide the maximum difference in feature pionts between cars and non car images as can be seen in "FeatureInvestigationSpace\ColorSpaceInvestigation" folder.
@@ -89,5 +95,47 @@ For the LUV i think it is due to that it was designed to better dispaly color di
 
 The Color Histogram tuneing parameters will be explored with more depth in the Classifier training but for now I settle that I can use the HLS or LUV color space with 32-64 bins and depending on the number of features points of other calssification features I can decide the best number of channels of used.
 
-### 1) Spatial binning:
+### 2) Spatial binning:
 This is also a soft classifier as using the raw pixel values can give you a rough estimation about the image type but it can never be accurate as there are a lot of factors that can affect pixel values as lighting conditions, camera sensor sensitivity, etc..
+
+
+Spatial Binning have multiple tuning options such as:
+  * Color Space
+  * Number of channels used in the selected color space and which channel to use
+  * Binning Size
+  
+The Binning size first, during testing I found that this option actually can result in huge difference in the feature count for the SB feature for example keeping it to 64 result in a whopping 12288 feature points, however downsampling to 8 gives only 192 feature count and the difference in the binning curves is not really this huge as I have observed through a large number of examples
+
+for the color space I observed that again the U and V channels provides a very clear differnece between the car and non-car classes.
+This can also be seen in below examples.
+
+The below image show an example of the Car images in the udacity data set, the image is 64 by 64 pixels
+![CarSBImg][CarSBImg]
+This is the historgram of the above image
+![CarSBEx][CarSBEx]
+The below image show an example of the Non Car images in the udacity data set, the image is 64 by 64 pixels
+![NonCarSBImg][NonCarSBImg]
+This is the historgram of the above image
+![NonCarSBEx][NonCarSBEx]
+
+### 3) Histogram of Oriented gradients:
+This is by far a much better classifier that the above two classifiers as it actually capture the overall strucutre inside the image itself so it can be used with much more confidence that it can better classify the different classes.
+
+For HOG there exists a large number of tuning parameters listed below:
+  * Number of orientations: The HOG paper suggest no more than 9 orientations
+  * Pixels per cell
+  * Cells per block
+  * Block Normalization
+  * Transformation SQRT
+  * Color Space
+  * Number of channels used in the selected color space and which channel to use
+
+I gave this option the most time to analyse and invetigate the effect of different parameters, I observed that the parameter values provided by the original picture can give quite a good performance but at least in my experience more optimum values can be foun especially in the orientation count, maybe this is due to the different application as the papaer had the goal to classify pedestarins and the overall strucutre of humans is much different of cars as they can have a lot of curvature and much more sharp edges specially in the bumper and plate areas.
+
+You can view the analysis with much more clarity in the DataVisualization.ipynb last section realted to HOG data visualization.
+
+---
+
+## Second Step: Feature Extraction and Classifier training.
+
+This was done on multiple steps where I tried to manually change the tuning options and train a classifier each time to observe how the accuracy could be affected, however going through with it proved to be much more diffcult than expected and that
